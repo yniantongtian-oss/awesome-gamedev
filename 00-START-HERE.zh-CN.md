@@ -9,14 +9,14 @@
 | 目标 | 直接选择 | 说明 |
 |---|---|---|
 | 继续开发自己的 3D 游戏 | [`wanwu-chengjie`](https://github.com/yniantongtian-oss/wanwu-chengjie) | 当前账号中最接近正式产品的游戏项目 |
-| 零代码或低代码做游戏 | [`GDevelop`](4ian/GDevelop) | 带编辑器的完整游戏创作平台 |
-| 做通用 2D/3D 独立游戏 | [`godot`](godotengine/godot) | 通用开源游戏引擎 |
-| 做浏览器 2D 游戏 | [`phaser`](phaserjs/phaser) | Web 2D 游戏框架 |
-| 做浏览器 3D 游戏 | [`three.js`](mrdoob/three.js) 或 [`Babylon.js`](BabylonJS/Babylon.js) | Web 3D 渲染与游戏开发 |
-| 用 C/C++ 快速做小游戏 | [`raylib`](raysan5/raylib) | API 简洁，适合学习与原型 |
-| 用 Rust 做游戏 | [`bevy`](bevyengine/bevy) | ECS 驱动的 Rust 游戏引擎 |
-| 找可参考的完整游戏 | [`awesome-open-source-games`](michelpereira/awesome-open-source-games) | 开源游戏案例索引 |
-| 找美术、音频和开发工具 | [`magictools`](ellisonleao/magictools) | 游戏开发资源与工具索引 |
+| 零代码或低代码做游戏 | [`GDevelop`](https://github.com/4ian/GDevelop) | 带编辑器的完整游戏创作平台 |
+| 做通用 2D/3D 独立游戏 | [`godot`](https://github.com/godotengine/godot) | 通用开源游戏引擎 |
+| 做浏览器 2D 游戏 | [`phaser`](https://github.com/phaserjs/phaser) | Web 2D 游戏框架 |
+| 做浏览器 3D 游戏 | [`three.js`](https://github.com/mrdoob/three.js) 或 [`Babylon.js`](https://github.com/BabylonJS/Babylon.js) | Web 3D 渲染与游戏开发 |
+| 用 C/C++ 快速做小游戏 | [`raylib`](https://github.com/raysan5/raylib) | API 简洁，适合学习与原型 |
+| 用 Rust 做游戏 | [`bevy`](https://github.com/bevyengine/bevy) | ECS 驱动的 Rust 游戏引擎 |
+| 找可参考的完整游戏 | [`awesome-open-source-games`](https://github.com/michelpereira/awesome-open-source-games) | 开源游戏案例索引 |
+| 找美术、音频和开发工具 | [`magictools`](https://github.com/ellisonleao/magictools) | 游戏开发资源与工具索引 |
 
 ---
 
@@ -53,9 +53,9 @@ npm run check
 
 | 仓库 | 类型 | 建议用途 |
 |---|---|---|
-| [`OpenRA`](OpenRA/OpenRA) | 即时战略游戏引擎与重制项目 | 学习 RTS、地图、单位、联网与模组系统 |
-| [`openage`](SFTtech/openage) | 经典 RTS 引擎重制 | 学习 C++/Python 混合工程与资源转换 |
-| [`luanti`](luanti-org/luanti) | 体素沙盒游戏引擎与平台 | 学习开放世界、体素、模组和多人服务器 |
+| [`OpenRA`](https://github.com/OpenRA/OpenRA) | 即时战略游戏引擎与重制项目 | 学习 RTS、地图、单位、联网与模组系统 |
+| [`openage`](https://github.com/SFTtech/openage) | 经典 RTS 引擎重制 | 学习 C++/Python 混合工程与资源转换 |
+| [`luanti`](https://github.com/luanti-org/luanti) | 体素沙盒游戏引擎与平台 | 学习开放世界、体素、模组和多人服务器 |
 
 这些大型仓库更适合作为参考源或二次开发基础，不建议和自己的游戏业务代码混在一起。
 
@@ -67,23 +67,23 @@ npm run check
 
 | 仓库 | 语言/平台 | 最适合 |
 |---|---|---|
-| [`godot`](godotengine/godot) | C++ / GDScript / C# | 2D、3D、独立游戏、跨平台发布 |
-| [`GDevelop`](4ian/GDevelop) | JavaScript / 编辑器 | 不写代码或少写代码快速做游戏 |
-| [`cocos2d-x`](cocos2d/cocos2d-x) | C++ | 移动端 2D、传统商业游戏项目 |
+| [`godot`](https://github.com/godotengine/godot) | C++ / GDScript / C# | 2D、3D、独立游戏、跨平台发布 |
+| [`GDevelop`](https://github.com/4ian/GDevelop) | JavaScript / 编辑器 | 不写代码或少写代码快速做游戏 |
+| [`cocos2d-x`](https://github.com/cocos2d/cocos2d-x) | C++ | 移动端 2D、传统商业游戏项目 |
 
 ### 编程框架型引擎
 
 | 仓库 | 语言 | 最适合 |
 |---|---|---|
-| [`bevy`](bevyengine/bevy) | Rust | ECS、大型系统化玩法、Rust 学习 |
-| [`libgdx`](libgdx/libgdx) | Java/Kotlin | Android、桌面、多平台 2D/3D |
-| [`MonoGame`](MonoGame/MonoGame) | C# | 代码驱动的 2D/3D 游戏 |
-| [`raylib`](raysan5/raylib) | C | 教学、原型、小游戏和图形学入门 |
-| [`ebiten`](hajimehoshi/ebiten) | Go | Go 语言 2D 游戏 |
-| [`pyxel`](kitao/pyxel) | Python | 像素游戏、教学和 Game Jam |
-| [`phaser`](phaserjs/phaser) | TypeScript/JavaScript | 浏览器 2D 游戏 |
-| [`engine`](playcanvas/engine) | JavaScript / WebGL / WebGPU | PlayCanvas 浏览器 3D 游戏 |
-| [`Babylon.js`](BabylonJS/Babylon.js) | TypeScript | 浏览器 3D 游戏与可视化 |
+| [`bevy`](https://github.com/bevyengine/bevy) | Rust | ECS、大型系统化玩法、Rust 学习 |
+| [`libgdx`](https://github.com/libgdx/libgdx) | Java/Kotlin | Android、桌面、多平台 2D/3D |
+| [`MonoGame`](https://github.com/MonoGame/MonoGame) | C# | 代码驱动的 2D/3D 游戏 |
+| [`raylib`](https://github.com/raysan5/raylib) | C | 教学、原型、小游戏和图形学入门 |
+| [`ebiten`](https://github.com/hajimehoshi/ebiten) | Go | Go 语言 2D 游戏 |
+| [`pyxel`](https://github.com/kitao/pyxel) | Python | 像素游戏、教学和 Game Jam |
+| [`phaser`](https://github.com/phaserjs/phaser) | TypeScript/JavaScript | 浏览器 2D 游戏 |
+| [`engine`](https://github.com/playcanvas/engine) | JavaScript / WebGL / WebGPU | PlayCanvas 浏览器 3D 游戏 |
+| [`Babylon.js`](https://github.com/BabylonJS/Babylon.js) | TypeScript | 浏览器 3D 游戏与可视化 |
 
 ### 使用原则
 
@@ -100,10 +100,10 @@ npm run check
 
 | 仓库 | 类型 | 适合场景 |
 |---|---|---|
-| [`three.js`](mrdoob/three.js) | Web 3D 渲染库 | 自由度高的浏览器 3D 项目 |
-| [`Babylon.js`](BabylonJS/Babylon.js) | Web 3D 引擎 | 更完整的游戏功能和工具链 |
-| [`aframe`](aframevr/aframe) | WebXR 声明式框架 | VR、AR、沉浸式网页 |
-| [`pixijs`](pixijs/pixijs) | Web 2D 渲染库 | 高性能 2D、粒子、UI 和特效 |
+| [`three.js`](https://github.com/mrdoob/three.js) | Web 3D 渲染库 | 自由度高的浏览器 3D 项目 |
+| [`Babylon.js`](https://github.com/BabylonJS/Babylon.js) | Web 3D 引擎 | 更完整的游戏功能和工具链 |
+| [`aframe`](https://github.com/aframevr/aframe) | WebXR 声明式框架 | VR、AR、沉浸式网页 |
+| [`pixijs`](https://github.com/pixijs/pixijs) | Web 2D 渲染库 | 高性能 2D、粒子、UI 和特效 |
 
 你的《万物成界》已经采用 Three.js / React Three Fiber 路线，因此短期内不应再切换到 Babylon.js、PlayCanvas 或 Godot。除非准备新建完全独立的游戏项目。
 
@@ -113,10 +113,10 @@ npm run check
 
 | 仓库 | 分类 | 用途 |
 |---|---|---|
-| [`entt`](skypjack/entt) | C++ ECS | 实体组件系统、事件和资源管理 |
-| [`flecs`](SanderMertens/flecs) | C/C++ ECS | 大规模实体与数据驱动架构 |
-| [`imgui`](ocornut/imgui) | C++ 即时模式 GUI | 游戏内调试器、编辑器、性能面板 |
-| [`egui`](emilk/egui) | Rust 即时模式 GUI | Rust 工具和游戏编辑界面 |
+| [`entt`](https://github.com/skypjack/entt) | C++ ECS | 实体组件系统、事件和资源管理 |
+| [`flecs`](https://github.com/SanderMertens/flecs) | C/C++ ECS | 大规模实体与数据驱动架构 |
+| [`imgui`](https://github.com/ocornut/imgui) | C++ 即时模式 GUI | 游戏内调试器、编辑器、性能面板 |
+| [`egui`](https://github.com/emilk/egui) | Rust 即时模式 GUI | Rust 工具和游戏编辑界面 |
 
 这些不是完整游戏引擎。只有在对应语言项目真正需要 ECS 或调试工具时再引入。
 
@@ -127,8 +127,8 @@ npm run check
 | 仓库 | 内容 | 使用方式 |
 |---|---|---|
 | [`awesome-gamedev`](https://github.com/yniantongtian-oss/awesome-gamedev) | 引擎、资产、音频、图形工具、学习资料 | 开发前查工具和资源 |
-| [`awesome-open-source-games`](michelpereira/awesome-open-source-games) | 浏览器、桌面和移动端开源游戏 | 找完整项目作为结构参考 |
-| [`magictools`](ellisonleao/magictools) | 美术、贴图、音频、关卡编辑和开发工具 | 制作素材或选择工具时查找 |
+| [`awesome-open-source-games`](https://github.com/michelpereira/awesome-open-source-games) | 浏览器、桌面和移动端开源游戏 | 找完整项目作为结构参考 |
+| [`magictools`](https://github.com/ellisonleao/magictools) | 美术、贴图、音频、关卡编辑和开发工具 | 制作素材或选择工具时查找 |
 
 这些仓库是目录，不是要直接运行的游戏工程。
 
